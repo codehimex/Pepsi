@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+nav h2{
+    color: royalblue;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    margin: 0 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    transition: 0.6s;
+}
+nav ul li a:hover , .home{
+    background-color: red;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    transition: 0.6s;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70vh;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    font-size: 28px;
+    margin-right: 32px;
+    line-height: 50px;
+}
+.txt{
+    line-height: 46px;
+}
+.txt h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 46px;
+    color: royalblue;
+}
+p{
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+.txt h1 span{
+    color: red;
+}
+.data img{
+    width: 180px;
+    padding-right: 120px;
+}
+#btn{
+    border: royalblue 2px solid;
+    background-color: white;
+    padding: 8px;
+    border-radius: 0.5rem;
+    color: black;
+    font-size: 15px;
+}
+.pic{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.pic img{
+    width: 32px;
+    margin: 20px;
+    transition: 0.6s;
+}
+.pic img:hover{
+    transform: scale(1.5);
+    transition: 0.6s;
+}
